@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OUTBREAK: The Dead Zone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game">
+
+        <header>
+            <h1>OUTBREAK</h1>
+            <p class="subtitle">THE DEAD ZONE</p>
+            <p class="warning">⚠ BIOHAZARD ALERT ⚠</p>
+        </header>
+
+        <div class="stats">
+            <div>
+                <span>❤️ HEALTH</span>
+                <h3 id="health">100</h3>
+            </div>
+
+            <div>
+                <span>🔫 AMMO</span>
+                <h3 id="ammo">12</h3>
+            </div>
+
+            <div>
+                <span>🎒 MEDKITS</span>
+                <h3 id="medkits">2</h3>
+            </div>
+        </div>
+
+        <div class="inventory">
+            <h3>INVENTORY</h3>
+            <p id="items">Empty</p>
+        </div>
+
+        <div class="story">
+            <p id="location">LOCATION: UNKNOWN</p>
+
+            <h2 id="scene-title">THE OUTBREAK</h2>
+
+            <p id="story-text">
+                The city has fallen. A mysterious virus has
+                turned its citizens into bloodthirsty creatures.
+
+                You wake up inside an abandoned research facility.
+                Your radio suddenly turns on.
+
+                "Survivor detected. Find the security keycard.
+                Get out before it's too late."
+            </p>
+        </div>
+
+        <div class="actions">
+            <h3>YOUR ACTIONS</h3>
+            <div id="choices"></div>
+        </div>
+
+        <button class="restart" onclick="restartGame()">
+            RESTART GAME
+        </button>
+
+        <footer>
+            SURVIVE THE OUTBREAK. ESCAPE THE DEAD ZONE.
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
